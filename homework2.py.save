@@ -1,0 +1,16 @@
+"""
+homework task 2 
+"""
+
+print("Enter the pyramyd high")
+i = 1
+hight = int(input())
+print()
+y = 1
+
+while i <= hight:
+print(list(range(y,y+i)))
+    y = y+i
+    i += 1
+
+
